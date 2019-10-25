@@ -1,0 +1,48 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+.scene{
+    background-image: url("https://data.whicdn.com/images/319247528/original.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    width:100%;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.spooder{
+    background-image: url("./spoooooder.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* transform: translateX("20px") */
+
+}
+.text{
+    position: absolute;
+    width: 200px;
+    color:white;
+    font-size: 20px;
+    top: -40px;
+}
+.character{
+    width: 135px;
+    height: 217px;
+    background-image: url("./Mario_Sprite.png");
+    background-position-x:  -286px;
+    background-position-y : -3px;
+    animation: moveX 0.5s steps(4) infinite;
+    
+}
+
+@keyframes moveX{
+    from{background-position-x: -279px;}
+    to{background-position-x:  -839px;}
+  }
