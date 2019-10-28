@@ -35,7 +35,7 @@ padding: 0;
 .character{
     width: 135px;
     height: 217px;
-    background-image: url("./Mario_Sprite.png");
+    background-image: url("./sprite.png");
     background-position-x:  -286px;
     background-position-y : -3px;
     animation: moveX 0.5s steps(4) infinite;
